@@ -43,6 +43,7 @@ header nav a {
   width: 100%;
   padding-top: 78px;
   background-image: url(../img/keyvisual/keyvisual.jpg);
+  background-size: cover;
 }
 
 .content {
@@ -86,7 +87,7 @@ header nav a {
 
 .imac {
   width: 40%;
-  margin-top: 50px;
+  padding-top: 50px;
   text-align: center;
 }
 
@@ -115,15 +116,15 @@ header nav a {
 
 .skills {
   background-color: #fff;
-  margin-bottom: 70px;
+  padding-bottom: 70px;
 }
 
 .title5 {
   font-size: 40px;
   letter-spacing: 10px;
   text-align: center;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .logo-box {
@@ -205,20 +206,6 @@ header nav a {
   align-items: center;
 }
 
-.sns-icons li i {
-  padding: 25px 0;
-  width: 185px;
-  color: #8C8C8C;
-  font-size: 40px;
-  overflow: hidden;
-  text-align: center;
-}
-
-.sns-icons li i:hover {
-  background-color: #fff;
-  transition: 0.5s;
-}
-
 footer {
   background-color: #CFD8DC;
 }
@@ -235,6 +222,23 @@ footer p {
   padding: 20px 0 25px 0;
 }
 
+@media screen and (min-width:1200px) {
+
+  .sns-icons li i {
+    padding: 25px 0;
+    width: 185px;
+    color: #8C8C8C;
+    font-size: 40px;
+    overflow: hidden;
+    text-align: center;
+    transition: 0.5s;
+  }
+
+  .sns-icons li i:hover {
+    background-color: #fff;
+  }
+
+}
 
 @media screen and (max-width: 1199px) {
 
@@ -262,10 +266,6 @@ footer p {
     width: 100%;
   }
 
-  .skills {
-    margin-bottom: 0;
-  }
-
   .logo-box {
     align-items: center;
     flex-direction: column;
@@ -278,6 +278,10 @@ footer p {
 
   .logo-box :nth-of-type(3n) {
     margin-bottom: 80px;
+  }
+
+  .logo-box :last-child {
+    margin-bottom: 0px;
   }
 
 }
@@ -360,9 +364,15 @@ footer p {
     flex-direction: column;
   }
 
-  .sns-icons li i {
-    padding: 50px;
+
+  .sns-icons li {
+    padding: 25px 0;
+    width: 100%;
     color: #8C8C8C;
+    font-size: 40px;
+    overflow: hidden;
+    text-align: center;
+    transition: 0.5s;
   }
 
   .sns-icons li:hover {
@@ -370,4 +380,10 @@ footer p {
     background-color: #fff;
     text-align: center;
   }
+
+  .sns-icons li i {
+    padding: 50px;
+    color: #8C8C8C;
+  }
+
 }
