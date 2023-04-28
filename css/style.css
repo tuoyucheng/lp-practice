@@ -222,22 +222,18 @@ footer p {
   padding: 20px 0 25px 0;
 }
 
-@media screen and (min-width:1200px) {
+.sns-icons li i {
+  padding: 25px 0;
+  width: 185px;
+  color: #8C8C8C;
+  font-size: 40px;
+  overflow: hidden;
+  text-align: center;
+  transition: 0.5s;
+}
 
-  .sns-icons li i {
-    padding: 25px 0;
-    width: 185px;
-    color: #8C8C8C;
-    font-size: 40px;
-    overflow: hidden;
-    text-align: center;
-    transition: 0.5s;
-  }
-
-  .sns-icons li i:hover {
-    background-color: #fff;
-  }
-
+.sns-icons li i:hover {
+  background-color: #fff;
 }
 
 @media screen and (max-width: 1199px) {
@@ -363,7 +359,6 @@ footer p {
     padding: 0 15px;
     flex-direction: column;
   }
-
 
   .sns-icons li {
     padding: 25px 0;
