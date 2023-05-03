@@ -77,13 +77,13 @@ header nav a {
 
 .work {
   background-color: #E3F2FD;
+  padding-top: 50px;
 }
 
 .work-contents {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 50px;
 }
 
 .imac {
