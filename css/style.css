@@ -132,7 +132,7 @@ header nav a {
   flex-wrap: wrap;
   margin: 0 auto;
   gap: 100px 100px;
-  justify-content: center;
+  justify-content: flex-start;
 }
 
 .logo-box img {
